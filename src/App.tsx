@@ -1,14 +1,16 @@
-import Heading from "./components/Heading";
-import { Section } from "./components/Section";
+import React from "react"
+import Button from "./components/Button"
 
-function App() {
+const App:React.FC = () => { 
+    const handlesave = (): void => {
+      alert("save simulated");
+    };
+  return(
+    <div>
+      <h1>Main Page</h1>
+      <Button desc = 'Save' onClick={handlesave} variant="primary"/>
+    </div>
+  );
 
-  return (
-  <>
-  <Heading title ={"Hello"}/>
-  <Section title = "this is a new title"> this is my section</Section>
-  </>
-   );
-}
-
+};
 export default App
