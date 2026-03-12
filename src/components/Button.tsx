@@ -7,7 +7,7 @@ type ButtonProps = {
 }
 
 const styles: Record<ButtonVariant, React.CSSProperties> = {
-    primary: {fontSize: "20px", color: "white", border: "solid", borderColor: "black"},
+    primary: {fontSize: "23px", color: "black", border: "solid", borderColor: "black"},
     secondary: {fontSize: "10px", color: "white", border: "none"}
 }
 
@@ -15,6 +15,6 @@ export default function Button ({label, onClick, variant="primary"}: ButtonProps
     return (
         <button 
             onClick={onClick}
-            style= {{...styles[variant], backgroundColor: "none",textDecoration: "underline", marginRight:"30px"}} > {label}</button>
+            style= {{...styles[variant],fontWeight:"bold", background: "#db8606", marginRight:"30px",}} > {label}</button>
     )
 }
