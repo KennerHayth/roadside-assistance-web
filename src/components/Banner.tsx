@@ -14,7 +14,7 @@ export default function Banner(){
         borderBottomColor: "black",
         padding: "25px",
         paddingRight: "30px",
-        fontFamily: "'Bebas Neue', sans-serif",
+        fontFamily: "'Black Ops One', cursive",
         justifyContent: "space-between",
         alignItems:"center",
         display:"flex",
