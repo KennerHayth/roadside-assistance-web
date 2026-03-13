@@ -17,9 +17,9 @@ export default function Banner(){
         
     }}> 
     <div style = {{flex: 1}}>
-    <img src="/LOGO_transparent.PNG" alt= "Highway Heros Logo" style={{width: "150px", left: "40px", height:"auto",position: "absolute"}}/>
+    <img src="/LOGO_transparent.PNG" alt= "Highway Heros Logo" style={{width: "150px", left: "40px", height:"auto",position: "absolute",top: "50%",transform: "translateY(-50%)"}}/>
       </div> 
-      <div style = {{flex: 1, display:"flex", justifyContent: "center", gap:"24px"}}>
+      <div style = {{flex: 1, display:"flex", justifyContent: "center", gap:"24px", }}>
         <Button label="Home" onClick={()=>{}} variant="primary"/>
         <Button label="About us" onClick={()=>{}} variant="primary"/>
         <Button label="24/7 Emergency Roadside" onClick={()=>{}} variant="primary"/>
