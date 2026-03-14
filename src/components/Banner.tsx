@@ -12,14 +12,14 @@ export default function Banner(){
         backgroundImage: "linear-gradient(to bottom, #1b1815, #71797E 80%)",
         borderBottom: "solid",
         borderBottomColor: "black",
-        // padding: "30px 40px",
-        fontFamily: "'Cinzel', serif",display: "flex",height:"15vh"
+        padding: "30px 40px",
+        fontFamily: "'Cinzel', serif",
         
     }}> 
-    <div style = {{display: "flex"}}>
-    <img src="/LOGO_transparent.PNG" alt= "Highway Heros Logo" style={{width: "150px", left: "40px", height:"auto",top: "50%",transform: "translateY(-50%)", position: "absolute",}}/>
+    <div style = {{flex: 1}}>
+    <img src="/LOGO_transparent.PNG" alt= "Highway Heros Logo" style={{width: "150px", left: "40px", height:"auto",position: "absolute"}}/>
       </div> 
-      <div style = {{flex: 1, display:"flex", gap: "20px", alignItems:"center",justifyContent: "center",}}>
+      <div style = {{flex: 1, display:"flex", justifyContent: "center", gap:"24px"}}>
         <Button label="Home" onClick={()=>{}} variant="primary"/>
         <Button label="About us" onClick={()=>{}} variant="primary"/>
         <Button label="24/7 Emergency Roadside" onClick={()=>{}} variant="primary"/>
