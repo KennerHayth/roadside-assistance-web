@@ -13,7 +13,7 @@ export default function Banner(){
         borderBottom: "solid",
         borderBottomColor: "black",
         // padding: "30px 40px",
-        fontFamily: "'Cinzel', serif",display: "flex",height:"15vh"
+        fontFamily: "'Cinzel', serif",display: "flex",height:"7vh"
         
     }}> 
     <div style = {{display: "flex"}}>
