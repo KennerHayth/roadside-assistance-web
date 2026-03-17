@@ -15,6 +15,7 @@ export default function Button ({label, onClick, variant="primary"}: ButtonProps
     return (
         <button 
             onClick={onClick}
+
             style= {{...styles[variant],fontWeight:"900", background: "#db8606",padding:"8px 16px", cursor:"pointer",}} > {label}</button>
     )
 }

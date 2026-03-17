@@ -4,10 +4,10 @@ import Button from "./Button"
 export default function Banner(){
     return(
     <div style={{
-        position: "fixed",
+        position: "absolute",
         top:"0",
         left: "0",
-        width: "100%",
+        width: "100vw",
         zIndex: 1000,
         backgroundImage: "linear-gradient(to bottom, #1b1815, #71797E 80%)",
         borderBottom: "solid",
