@@ -5,7 +5,7 @@ A business website for a roadside assistance company, built with React, TypeScri
 The site gives customers quick access to contact information, service rates, and a description of the business — designed to be fast, mobile-friendly, and easy to maintain.
 
 ## Live Site
-[View the live site]((https://main.d1x2q8nzsp978o.amplifyapp.com/))
+[View the live site](https://main.d1x2q8nzsp978o.amplifyapp.com/)
 
 ## Features
 - Contact information and call-to-action for customers needing immediate help
