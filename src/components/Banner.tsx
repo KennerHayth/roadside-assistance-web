@@ -1,6 +1,8 @@
 import Button from "./Button"
+import { useNavigate } from "react-router-dom"
 
 export default function Banner(){
+    const navigate = useNavigate()
     return(
     <div style={{
         position: "absolute",
@@ -19,11 +21,10 @@ export default function Banner(){
     <img src="/LOGO_transparent.PNG" alt= "Highway Heros Logo" style={{width: "150px", left: "40px", height:"auto",position: "absolute"}}/>
       </div> 
       <div style = {{flex: 1, display:"flex", justifyContent: "center", gap:"24px"}}>
-        <Button label="Home" onClick={()=>{}} variant="primary"/>
-        <Button label="About us" onClick={()=>{}} variant="primary"/>
-        <Button label="24/7 Emergency Roadside" onClick={()=>{}} variant="primary"/>
-        <Button label="Contact" onClick={()=>{}} variant="primary"/>
-        <Button label="Pricing" onClick={()=>{}} variant="primary"/>
+        <Button label="Home" onClick={()=> navigate("/")} variant="primary"/>
+        <Button label="About us" onClick={()=>navigate("/About")} variant="primary"/>
+        <Button label="24/7 Emergency Roadside" onClick={()=>navigate("/Roadside")} variant="primary"/>
+        <Button label="Contact Us" onClick={()=>navigate("/Contacts")} variant="primary"/>
     </div>
 
 
