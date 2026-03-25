@@ -1,7 +1,7 @@
 export default function reviews(){
 
     return(
-        <div style = {{backgroundColor: "#1b1815", padding: "60px 40px", minHeight:"48vh"}}>
+        <div style = {{backgroundColor: "#1b1815", padding: "60px 40px", minHeight:"600vh"}}>
             
             <div style={{display:"grid", gap:"60px",maxWidth:"1100px", alignItems:"center",gridTemplateColumns: "1fr 1px 1fr",margin: "0 auto"}}>
 
